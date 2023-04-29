@@ -21,7 +21,7 @@
 //
 #ifndef __PNGDEC__
 #define __PNGDEC__
-#if defined( __MACH__ ) || defined( __LINUX__ ) || defined( __MCUXPRESSO )
+#if defined(NO_ARDUINO) || defined( __MACH__ ) || defined( __LINUX__ ) || defined( __MCUXPRESSO )
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
